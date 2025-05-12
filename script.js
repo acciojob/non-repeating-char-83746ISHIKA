@@ -1,12 +1,11 @@
 function firstNonRepeatedChar(str) {
-    // Create a Map to store character frequencies
+  
     const charCount = new Map();
     
     for (let char of str) {
         charCount.set(char, (charCount.get(char) || 0) + 1);
     }
-    
-    // Find first character with frequency 1
+
     for (let char of str) {
         if (charCount.get(char) === 1) {
             return char;
