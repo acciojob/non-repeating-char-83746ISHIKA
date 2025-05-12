@@ -11,9 +11,4 @@ function firstNonRepeatedChar(str) {
     return null;
 }
 console.log(firstNonRepeatedChar("aabbcdd"));
-console.log(firstNonRepeatedChar("aabbcc"));
-//const input = prompt("a");
-//for (let index = 0; index < bound; inde++) {
-	
-//}
-//alert(firstNonRepeatedChar(input));
+
