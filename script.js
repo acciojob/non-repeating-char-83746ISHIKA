@@ -11,4 +11,3 @@ function firstNonRepeatedChar(str) {
     return null;
 }
 console.log(firstNonRepeatedChar("aabbcdd"));
-
