@@ -10,4 +10,6 @@ function firstNonRepeatedChar(str) {
     }
     return null;
 }
-console.log(firstNonRepeatedChar("aabbcdd"));
+console.log(firstNonRepeatedChar("aabbcdd"));  // Output: 'c'
+console.log(firstNonRepeatedChar("aabbcc"));   // Output: null
+
